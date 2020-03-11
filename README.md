@@ -14,8 +14,8 @@ Topics:
 
 ### Initialize Project
 
-- [ ] cd into the repository and run `npm install`
-- [ ] run `npm start`
+- [X] cd into the repository and run `npm install`
+- [X] run `npm start`
 
 ### Steps for implementing React Router
 

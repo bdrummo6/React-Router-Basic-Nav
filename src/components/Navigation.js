@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'; // Import so that I can set up my Navigation links
 
 const Navigation = () => {
   return (
@@ -6,13 +7,13 @@ const Navigation = () => {
       <div className="App">
         <h1>React Router Mini</h1>
         <div>
-          <a href="">Home</a>
+          <Link to='/'>Home</Link> {/* Changed the anchor tag to a Link component and specified the home route to navigate to */}
         </div>
         <div>
-          <a href="">About</a>
+          <Link to='/about'>About</Link> {/* Changed the anchor tag to a Link component and specified the about route to navigate to */}
         </div>
         <div>
-          <a href="">Contact</a>
+          <Link to='/contact'>Contact</Link> {/* Changed the anchor tag to a Link component and specified the contact route to navigate to */}
         </div>
       </div>
     </div>
